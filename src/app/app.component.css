@@ -17,7 +17,7 @@ min-height:100%;
 .components{padding:50px;}
 
 .footer{
-	position: relative;
+	position: absolute;
 	bottom: 0px;
 	width: 100%;
   background-color: #f5f5f5;
