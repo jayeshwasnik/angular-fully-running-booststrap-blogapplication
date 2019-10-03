@@ -1,1 +1,27 @@
-view works
+<div class="container">
+<div class="row" *ngIf="currentBlog">
+
+  <div class="col-md-12" style="font-size:22px;text-align:center">
+  <br>  {{currentBlog.title}} <br> 
+<p> <small class="text-muted">posted by {{currentBlog.author}} on {{currentBlog.created | date }} </small></p>
+</div>
+
+<div class="col-md-12"style="text-align:center">
+  <p> {{currentBlog.bodyHtml}}  </p>
+  <p>{{currentBlog.description}}</p>
+</div>
+
+<div class="col-md-5">
+  <button type="button" class="btn btn-primary">Edit</button>
+</div>
+<div class="col-md-5" [routerLink]="['/home']">
+  <button type="button" class="btn btn-success">Home</button>
+</div>
+<div class="col-md-1">
+  <button type="button" class="btn btn-danger">Delete</button>
+</div>
+
+</div>
+
+
+</div>

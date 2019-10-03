@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
 "created":"2019 october",
 "tags":[],
 "author":"Admin",
+"imageURL":"https://wallpaperplay.com/walls/full/5/1/7/284289.jpg",
 "category":"comedy",
 "isPublished":true,
 "views":0,
@@ -25,6 +26,7 @@ export class HomeComponent implements OnInit {
 "created":"2019 october",
 "tags":[],
 "author":"Admin",
+"imageURL":"https://wallpaperplay.com/walls/full/d/b/a/284292.jpg",
 "category":"comedy",
 "isPublished":true,
 "views":0,
@@ -36,12 +38,24 @@ export class HomeComponent implements OnInit {
 "created":"2019 october",
 "tags":[],
 "author":"Admin",
+"imageURL":"https://wallpaperplay.com/walls/full/4/b/2/284299.jpg",
 "category":"comedy",
 "isPublished":true,
 "views":0,
 "bodyHtml":"this is the body",
 "description":"This is the blog 3 description",
 "title":"This is blog 3"
+},{"blogId":"4",
+"created":"2019 october",
+"tags":[],
+"author":"Admin",
+"imageURL":"https://wallpaperplay.com/walls/full/5/1/7/284289.jpg",
+"category":"comedy",
+"isPublished":true,
+"views":0,
+"bodyHtml":"this is the body",
+"description":"This is the blog 4 description",
+"title":"This is blog 4"
 }
 
   ];

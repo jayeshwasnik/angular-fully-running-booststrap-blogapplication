@@ -23,6 +23,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     {path:'',redirectTo:'home',pathMatch:'full'},
     {path:'about',component:AboutComponent},
     {path:'create',component:BlogCreateComponent},
+    //remember this blogId is just a random name ,you can name it anything.It is not actually the variable blogId in home component
     {path:'blog/:blogId',component:BlogViewComponent},
     {path:'**',component:NotFoundComponent}
   ])
