@@ -14,6 +14,7 @@ import { BlogCreateComponent } from './blog-create/blog-create.component';
 import { BlogEditComponent } from './blog-edit/blog-edit.component';
 import { AboutComponent } from './about/about.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { BlogService } from './blog.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ,
@@ -29,6 +30,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ])
   ],
   declarations: [ AppComponent, HelloComponent, HomeComponent, BlogViewComponent, BlogCreateComponent, BlogEditComponent, AboutComponent, NotFoundComponent ],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+  providers: [BlogService]
 })
 export class AppModule { }
